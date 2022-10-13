@@ -1,0 +1,126 @@
+
+/*defining variables */
+
+:root {
+    --main-color: #222222;
+    --secondary-color: #E0E0E0;
+    --button-gradient-login:linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    --input-background: #26292C;
+    
+}
+  
+/* Login Page*/
+
+.main {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: var(--secondary-color);
+}
+
+.section {
+    width: 50%;
+}
+
+.section-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+}
+
+.section__title{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 23.688rem;
+    margin-right: 3rem;
+}
+
+.section__title h1{
+    font-weight: 400;
+    font-size: 3.75rem;
+    margin-bottom: 1rem;
+}
+
+.section__title p{
+    font-weight: 400;
+    font-size: 1rem;
+    height: 3.25rem;
+    width: 18.813rem;
+    margin-bottom: 2rem;
+}
+
+.section__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.section__form h2{
+    font-weight: 400;
+    font-size: 1.875rem;
+    margin-bottom: 1rem;
+}
+
+.form-input{
+    background-color: var(--input-background);
+    width: 23.688rem;
+    height: 3.75rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 3.125rem;
+    margin-bottom: 2rem;
+}
+
+::-webkit-input-placeholder{ /* Chrome/opera/Safari */
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 1rem;
+    text-indent: 1rem;
+}
+
+::-moz-placeholder{ /* Firefox 19+ */
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 1rem;
+    text-indent: 1rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-content img{
+    margin-left: 1rem;
+}
+
+.button-login{
+    background:var(--button-gradient-login);
+    width: 23.625rem;
+    height: 4.188rem;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 3.125rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.125rem;
+    border: none;
+}
+
+.section-img {
+    background-image: url("../img/Mask\ Group.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo-compass{
+    width: 19.125rem;
+    margin-left: 40%;
+    margin-top: 2rem;
+}
+
+.button{
+    font-family: 'Nunito', sans-serif; 
+}
