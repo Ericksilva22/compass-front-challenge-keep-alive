@@ -71,16 +71,18 @@
     border: 1px solid #FFFFFF;
     border-radius: 3.125rem;
     margin-bottom: 2rem;
+    color: var(--secondary-color);
+    text-indent: 1rem;
 }
 
-::-webkit-input-placeholder{ /* Chrome/opera/Safari */
+.form-input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
     color: var(--secondary-color);
     font-weight: 400;
     font-size: 1rem;
     text-indent: 1rem;
 }
 
-::-moz-placeholder{ /* Firefox 19+ */
+.form-input::-moz-placeholder{ /* Firefox 19+ */
     color: var(--secondary-color);
     font-weight: 400;
     font-size: 1rem;
@@ -123,4 +125,25 @@
 
 .button{
     font-family: 'Nunito', sans-serif; 
+}
+
+
+/* completed form */
+
+.completed-form-user{
+    background-image: url("../img/Vector.svg");
+    background-position-x: 21rem;
+    background-position-y: center;
+    background-repeat: no-repeat; 
+}
+
+.completed-form-password{
+    background-image: url("../img/icon-password.svg");
+    background-position-x: 21rem;
+    background-position-y: center;
+    background-repeat: no-repeat; 
+}
+
+.visibility-hidden{
+    visibility: hidden;
 }
