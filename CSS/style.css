@@ -4,6 +4,7 @@
 :root {
     --main-color: #222222;
     --secondary-color: #E0E0E0;
+    --paragraph-error-color: #E9B425;
     --button-gradient-login:linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
     --input-background: #26292C;
     
@@ -146,4 +147,20 @@
 
 .visibility-hidden{
     visibility: hidden;
+}
+
+/* Login page error */
+
+.display-none{
+    display: none;
+}
+
+.paragraph-error{
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    width: 17.688rem;
+    padding-left: 2.5rem;
+    color: var(--paragraph-error-color);
 }

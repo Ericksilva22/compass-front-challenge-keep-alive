@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <script defer src="/Script/completed-form.js"></script>
+    <script defer src="/Script/login-error.js"></script>
 </head>
 <body>
     <main class="main">
@@ -31,8 +32,8 @@
                         <input class="form-input"  type="password" name="password" id="password" placeholder="Senha">
                         <img id="form-password-img" src="/img/icon-password.svg" alt="password Icon">
                     </div>
-                    
-                    <button class="button-login button">Continuar</button>
+                    <p class="paragraph-error display-none" id="paragraph-error">Ops, usuário ou senha inválidos. Tente novamente!</p>
+                    <button class="button-login button" id="button-login">Continuar</button>
                 </form>
             </div>
         </section>
