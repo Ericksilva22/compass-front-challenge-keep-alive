@@ -1,0 +1,172 @@
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    height: 20vh;
+}
+
+.header__time-hr{
+    font-size: 7rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header__time-date{
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header__weather-place{
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.header__weather div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__weather-celsius{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* Main */
+
+.home-main{
+    text-align: right;
+    padding-right: 7rem;
+    background-image: url("../img/bola-LogoCompasso\ 1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 68vh;
+}
+
+.main__section{
+    padding-top: 4rem;
+}
+
+.main__section-mission{
+    margin-bottom: 0.8rem;
+}
+
+.main__section-mission-titles{
+    color: #C12D18;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.titles-font-size-mission{
+    font-size: 2.25rem;
+}
+
+.titles-font-size-others{
+    font-size: 2.7rem;
+}
+
+.paragraph-portuguese{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* footer */
+
+.footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+}
+
+.footer__section-paragraph{
+    width: 54%;
+    border-right: 1px solid #FFFFFF;
+}
+
+.paragraph-description{
+    font-weight: 400;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #FFFFFF;
+    width: 33.813rem;
+    padding-left: 7rem;
+}
+
+.footer__section-refresh{
+    display: flex;
+    justify-content: start;
+    width: 30%;
+    align-items: center;
+}
+
+.paragraph-refresh{
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    width: 5.213rem;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.counter-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   color: #FFFFFF;
+}
+
+.counter-content-number{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.counter-content-seg{
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.footer__section-continue{
+    background: #FFFFFF;
+    width: 8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer__section-continue a{
+    text-decoration: none;
+    color: #C13216;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.footer__section-logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+}
+
+.footer__section-logout a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
