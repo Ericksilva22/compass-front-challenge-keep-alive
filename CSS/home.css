@@ -159,13 +159,20 @@
     color: #C13216;
     font-weight: 400;
     font-size: 0.75rem;
+    transition: all ease-in-out 300ms;
 }
+
+.footer__section-continue a:hover{
+    font-size: 0.8rem;
+}
+
 
 .footer__section-logout{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 8%;
+    cursor: pointer;
 }
 
 .footer__section-logout p{
@@ -173,4 +180,9 @@
     color: #FFFFFF;
     font-weight: 700;
     font-size: 0.75rem;
+    transition: all ease-in-out 300ms;
+}
+
+.footer__section-logout p:hover{
+    font-size: 0.8rem;
 }

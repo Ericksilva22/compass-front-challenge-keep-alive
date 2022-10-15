@@ -18,11 +18,17 @@ function clearInputs(a,b){
 
 //remove LocalStorage
 
-var ss = document.getElementById("button-logout"); // button 'Logout'
+var btn_logout = document.getElementById("button-logout"); // button 'Logout'
 
 //Event click - button logout
-ss.addEventListener("click", function(e){
+btn_logout.addEventListener("click", function(e){
+
     e.preventDefault();
-    localStorage.clear(); //clear localStorage
-    document.location.pathname = "../index.html"; //change to login page
+    
+    var answer_logout = confirm("Deseja realmente realizar logout?");//get answer
+    if(answer_logout){
+        localStorage.clear(); //clear localStorage
+        document.location.pathname = "../index.html"; //change to login page
+    }
+    
 });
