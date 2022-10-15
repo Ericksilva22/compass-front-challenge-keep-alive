@@ -1,5 +1,5 @@
 # Compass.uol-front-challenge-keep-alive
-Sprint 4 - 4° 4th Front-End challenge for the Compass.uol scholarship program
+Sprint 4 - 4th Front-End challenge for the Compass.uol scholarship program
 
 The Project corresponds to a login page that allows the user to access the home page by correctly entering the input data. The design to be followed was built through the following link: https://www.figma.com/file/D9NUCsGJ1gCvmL0ZUnb7SJ/keepalive?node-id=0%3A1
 
