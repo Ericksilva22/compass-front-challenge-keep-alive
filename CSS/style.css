@@ -76,6 +76,10 @@
     text-indent: 1rem;
 }
 
+.form-input-color-erro{
+    border: 1px solid #E9B425;
+}
+
 .form-input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
     color: var(--secondary-color);
     font-weight: 400;

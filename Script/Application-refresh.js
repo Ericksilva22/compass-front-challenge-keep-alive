@@ -16,10 +16,10 @@ function refresh (){
 
        if(answer === true){
             location.reload(answer); //reload home page
-       } else {
+        } else {
             localStorage.clear(); //clear localStorage
             document.location.pathname = "../index.html"; //Logout
-       }
+        }
     }
 }
 
