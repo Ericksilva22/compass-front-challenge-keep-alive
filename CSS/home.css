@@ -31,13 +31,17 @@
 
 .header__weather div{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .header__weather-celsius{
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
+}
+
+.header__weather-img{
+    width: 20%;
 }
 
 
