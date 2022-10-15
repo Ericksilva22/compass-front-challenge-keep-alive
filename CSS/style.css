@@ -160,6 +160,44 @@
     visibility: hidden;
 }
 
+/* completed form - add animation */
+
+.user-img-position-in{
+    position: relative;
+    animation: img-user-in 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.password-img-position-in{
+    position: relative;
+    animation: img-password-in 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img-user-in {
+
+    from {
+        left: 0rem;
+    }
+    to{
+        left: -4.688rem;
+    }
+
+}
+
+@keyframes img-password-in {
+
+    from {
+        left: 0rem;
+        top: 0rem;
+    }
+    to{
+        left: -4.688rem;
+        top: 0.313rem;
+    }
+
+}
+
 /* Login page error */
 
 .display-none{
