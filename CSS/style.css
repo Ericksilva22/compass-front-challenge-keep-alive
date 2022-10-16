@@ -115,6 +115,7 @@
     font-size: 1.125rem;
     border: none;
     transition: all ease-in-out 300ms;
+    margin-top: 2rem;
 }
 
 .button-login:hover{
@@ -212,4 +213,313 @@
     width: 17.688rem;
     padding-left: 2.5rem;
     color: var(--paragraph-error-color);
+}
+
+/* Responsive media query */
+
+
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+    .section__title{
+        width: 13.688rem;
+        padding-top: 2rem;
+    }
+
+    .section__title h1{
+        font-size: 2.85rem;
+    }
+    
+    .section__title p{
+        font-size: 0.9rem;
+        
+    }
+
+    .form{
+        padding-top: 0.5rem;
+        padding-left: 2rem;
+    }
+
+    .section__form h2{
+        padding-left: 2rem;
+        font-size: 1.475rem;
+       
+    }
+
+    .form-input{
+        width: 16.688rem;
+        height: 2.55rem;
+        
+    }
+
+    .button-login{
+        width: 16.625rem;
+        height: 2.55rem;
+        font-size: 0.925rem;
+        margin-top: 2rem;
+    }
+
+    .logo-compass{
+        width: 45%;
+    }
+
+    #form-user-img, #form-password-img{
+        height: 20%;
+    }
+
+    .form-input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
+        font-size: 0.8rem;
+    }
+    
+    .form-input::-moz-placeholder{ /* Firefox 19+ */
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (min-width:689px) and (max-width:768px){ 
+
+    .section__title{
+        width: 13.688rem;
+        padding-top: 2rem;
+    }
+
+    .section__title h1{
+        font-size: 2.75rem;
+    }
+    
+    .section__title p{
+        font-size: 0.8rem;
+        
+    }
+
+    .form{
+        padding: 2rem;
+    }
+
+    .section__form h2{
+        padding-left: 2rem;
+        font-size: 1.275rem;
+       
+    }
+
+    .form-input{
+        width: 14.688rem;
+        height: 2.05rem;
+        
+    }
+
+    .button-login{
+        width: 14.625rem;
+        height: 2.05rem;
+        font-size: 0.725rem;
+        margin-top: 2rem;
+    }
+
+    .logo-compass{
+        width: 40%;
+    }
+
+    #form-user-img, #form-password-img{
+        height: 20%;
+    }
+
+    .form-input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
+        font-size: 0.7rem;
+    }
+    
+    .form-input::-moz-placeholder{ /* Firefox 19+ */
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (min-width:426px) and (max-width:688px){ 
+   
+
+    .section-login {
+        width: 60%;
+    }
+
+    .section-img{
+        width: 40%;
+    }
+
+    .section__title{
+        width: 8.688rem;
+        margin-right: 7rem;
+    }
+
+    .section__title h1{
+        font-size: 2.05rem;
+    }
+    
+    .section__title p{
+        font-size: 0.7rem;
+    }
+
+    .form{
+        padding: 0.5rem;
+    }
+
+    .section__form h2{
+        padding-left: 1rem;
+        font-size: 1.275rem;
+       
+    }
+
+    .form-input{
+        width: 10.688rem;
+        height: 2.05rem;
+    }
+
+    .button-login{
+        width: 10.625rem;
+        height: 2.05rem;
+        font-size: 0.725rem;
+    }
+
+    .logo-compass{
+        width: 40%;
+    }
+
+    #form-user-img, #form-password-img{
+        height: 15%;
+    }
+
+    .form-input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
+        font-size: 0.6rem;
+    }
+    
+    .form-input::-moz-placeholder{ /* Firefox 19+ */
+        font-size: 0.6rem;
+    }
+
+}
+
+
+
+@media screen and  (max-width:425px){ 
+
+    .main{
+        display: block;
+    }
+
+    .section{
+        width: 100%;
+    }
+
+    .section-login{
+        height: 100vh;
+    }
+
+    .section-img{
+        display: none;
+    }
+
+    .section__title{
+        width: 13.688rem;
+        padding-top: 2rem;
+        padding-right: 1rem;
+    }
+
+    .section__title h1{
+        font-size: 2.75rem;
+    }
+    
+    .section__title p{
+        font-size: 0.8rem;
+        
+    }
+
+    .form{
+        padding: 2rem;
+    }
+
+    .section__form h2{
+        padding-left: 2rem;
+        font-size: 1.275rem;
+       
+    }
+
+    .form-input{
+        width: 13.188rem;
+        height: 2.05rem;
+        
+    }
+
+    .button-login{
+        width: 13.625rem;
+        height: 2.55rem;
+        font-size: 0.725rem;
+        margin-top: 1.5rem;
+    }
+
+    #form-user-img, #form-password-img{
+        height: 15%;
+    }
+
+    .form-input::-webkit-input-placeholder{ /* Chrome/opera/Safari */
+        font-size: 0.7rem;
+    }
+    
+    .form-input::-moz-placeholder{ /* Firefox 19+ */
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and  (max-width:320px){ 
+
+    .main{
+        display: block;
+        min-width: 320px;
+    }
+
+
+    .section-login{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .section__title{
+        width: 13.688rem;
+    }
+
+    .section__title h1{
+        font-size: 2.75rem;
+        padding: 1rem;
+    }
+    
+    .section__title p{
+        font-size: 0.8rem;
+        padding-right: 1rem;
+       
+    }
+
+    .form{
+        padding: 2rem;
+    }
+
+    .section__form h2{
+        padding-left: 2rem;
+        font-size: 1.275rem;
+       
+    }
+
+    .form-input{
+        width: 13.188rem;
+        height: 2.05rem;
+        margin-bottom: 0.5rem;
+        
+    }
+
+    .button-login{
+        width: 13.625rem;
+        height: 2.55rem;
+        font-size: 0.725rem;
+        margin-top: 0.5rem;
+    }
+
+   
+
 }

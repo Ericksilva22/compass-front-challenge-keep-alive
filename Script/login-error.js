@@ -24,7 +24,7 @@ button_login.addEventListener("click", function(e){
 
     //connecting home page
     if(contentUser === "admin" && contentPassword === "admin"){ // check inputs
-        document.location.pathname = "./pages/home.html"; //change to home page
+        document.location.pathname = "../pages/home.html"; //change to home page
     }
 
     clearInputs(contentUser, contentPassword); //clear inputs
