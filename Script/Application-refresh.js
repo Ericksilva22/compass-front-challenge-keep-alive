@@ -15,8 +15,10 @@ function refresh (){
        var answer = confirm("Deseja permanecer conectado?");//get answer
 
        if(answer === true){
-            location.reload(answer); //reload home page
+            seconds = 600;
+            location.reload(); //reload home page
         } else {
+            seconds = 600;
             localStorage.clear(); //clear localStorage
             document.location.pathname = "../index.html"; //Logout
         }
