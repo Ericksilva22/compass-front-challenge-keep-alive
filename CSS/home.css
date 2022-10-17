@@ -186,3 +186,270 @@
 .footer__section-logout p:hover{
     font-size: 0.8rem;
 }
+
+
+/* Responsive media query */
+
+@media screen and (min-width:1441px) and (max-width:2561px){ 
+
+    .home-compass-img{
+        width: 200%;
+    }
+    
+    .header__time-hr{
+        font-size: 14rem;
+    }
+    
+    .header__time-date{
+        font-size: 1.275rem; 
+    }
+    
+    .header__weather-place{
+        font-size: 1.275rem;
+    }
+
+    .header__weather-celsius{
+        font-size: 4rem;
+    }
+    
+    .header__weather-img{
+        width: 25%;
+    }
+
+    .titles-font-size-mission{
+        font-size: 4.2rem;
+    }
+    
+    .titles-font-size-others{
+        font-size: 5rem;
+    }
+    
+    .paragraph-portuguese{
+        font-size: 2.4rem;
+    }
+
+    .footer__section-paragraph{
+        width: 54%;
+        
+    }
+   
+    .paragraph-description{
+        font-size: 1.75rem;
+        padding-left: 7rem;
+        width: 100%;
+    }
+    
+    .footer__section-refresh{
+        padding-left: 15rem;
+    }
+
+    .paragraph-refresh{
+        font-size: 1.3rem;
+        padding-right: 1rem;
+        width: 20%;
+    }
+
+    .counter-content-number{
+        font-size: 5rem;
+    }
+
+    .counter-content-seg{
+        font-size: 1.3rem;
+    }
+
+    .footer__section-continue a{
+        font-size: 1.85rem;
+       
+    }
+    
+    .footer__section-logout p{
+        font-size: 1.85rem;
+       
+    }
+
+
+}
+
+
+@media screen and (min-width:769px) and (max-width:1025px){ 
+
+    .titles-font-size-mission{
+        font-size: 1.6rem;
+    }
+    
+    .titles-font-size-others{
+        font-size: 2rem;
+    }
+    
+    .paragraph-portuguese{
+        font-size: 1rem;
+    }
+
+   
+    .paragraph-description{
+        font-size: 0.65rem;
+        padding-left: 3rem;
+    }
+
+    .footer__section-refresh{
+        width: 20%;
+        padding-left:2rem;
+    }
+
+}
+
+@media screen and (min-width:426px) and (max-width:768px){ 
+
+    .header__time-hr{
+        font-size: 4rem;
+    }
+    
+    .header__time-date{
+        font-size: 0.575rem; 
+    }
+    
+    .header__weather-place{
+        font-size: 0.575rem;
+    }
+
+    .header__weather-celsius{
+        font-size: 2rem;
+    }
+    
+    .header__weather-img{
+        width: 15%;
+    }
+
+    .titles-font-size-mission{
+        font-size: 1.4rem;
+    }
+    
+    .titles-font-size-others{
+        font-size: 1.5rem;
+    }
+    
+    .paragraph-portuguese{
+        font-size: 0.8rem;
+    }
+
+   
+    .paragraph-description{
+        font-size: 0.55rem;
+        padding-left: 1rem;
+        width: 30%;
+        display: none;
+    }
+
+    .footer__section-refresh{
+        width: 50%;
+        padding-left:2rem;
+    }
+
+    .footer__section-continue a{
+        font-size: 0.75rem;
+       
+    }
+    
+    .footer__section-logout p{
+        font-size: 0.75rem;
+       
+    }
+
+    .footer__section-logout{
+        width: 20%;
+    }
+
+    .footer__section-continue{
+        width: 20%;
+        
+    }
+
+}
+
+
+@media screen and (max-width:425px){ 
+
+    .home-main{
+        padding-right: 2rem;
+        height: 68vh;
+        background-position-x: -8rem;
+    }
+
+    .home-compass-img{
+        width: 70%;
+    }
+
+    .header__time-hr{
+        font-size: 2.7rem;
+
+    }
+    
+    .header__time-date{
+        font-size: 0.575rem;
+        
+    }
+    
+    .header__weather-place{
+        font-size: 0.575rem;
+    }
+
+    .header__weather-celsius{
+        font-size: 1.2rem;
+    }
+    
+    .header__weather-img{
+        width: 13%;
+    }
+
+    .titles-font-size-mission{
+        font-size: 1.2rem;
+    }
+    
+    .titles-font-size-others{
+        font-size: 1rem;
+    }
+    
+    .paragraph-portuguese{
+        font-size: 0.4rem;
+    }
+
+    .footer__section-paragraph{
+        width: 4%;
+        border: none;
+    }
+
+    .paragraph-description{
+        font-size: 0.55rem;
+        padding-left: 1rem;
+        width: 10%;
+        display: none;
+    }
+
+    .footer__section-refresh{
+        width: 30%;
+        padding-right: 2rem;
+    }
+
+    .counter-content-number{
+        font-size: 1.3rem;
+    }
+
+    .footer__section-continue a{
+        font-size: 0.85rem;
+       
+    }
+    
+    .footer__section-logout p{
+        font-size: 0.85rem;
+       
+    }
+
+    .footer__section-logout{
+        width: 30%;
+    }
+
+    .footer__section-continue{
+        width: 30%;
+    }
+
+}
